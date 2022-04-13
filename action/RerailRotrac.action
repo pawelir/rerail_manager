@@ -1,0 +1,6 @@
+                        # goal - empty message
+---
+bool result             # result - true/false 
+---
+float32 linear_vel        # feedback - linear and anngular velocity
+float32 angular_vel 

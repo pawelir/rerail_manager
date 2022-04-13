@@ -1,0 +1,9 @@
+syntax: glob
+
+# vscode folder
+.vscode
+# python cache folder
+__pycache__
+# Temporary files
+*~
+
