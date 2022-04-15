@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find axle_bar_manager)/launch/axle_bar_manager.launch" />
+    <include file="$(find groove_scanner)/launch/groove_scanner.launch" />
+    <include file="$(find rerail_manager)/launch/rerail_manager.launch" />
+    <include file="$(find rotrac_manager)/launch/rotrac_manager.launch" />
+</launch>
