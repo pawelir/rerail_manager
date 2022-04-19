@@ -1,6 +1,5 @@
-                        # goal - empty message
 ---
-bool success             # result - true/false 
+bool success
 ---
 int32 grooves_number
 string process_state
