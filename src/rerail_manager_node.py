@@ -49,7 +49,7 @@ class RerailManager:
         self.first_ray_gap = self.first_groove_index - self.first_target_ray
         self.second_ray_gap = self.second_groove_index - self.second_target_ray
 
-    def _rerail_rotrac(self, goal: RerailRotracAction):
+    def _rerail_rotrac(self, goal: RerailRotracAction) -> None:
         rospy.logdebug('Rerail action started!')
         self._result.success = False
 
