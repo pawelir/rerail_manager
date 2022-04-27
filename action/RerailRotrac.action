@@ -1,6 +1,5 @@
-                        # goal - empty message
 ---
-bool result             # result - true/false 
+bool success
 ---
-float32 linear_vel        # feedback - linear and anngular velocity
-float32 angular_vel 
+int32 grooves_number
+string process_state

@@ -1,0 +1,11 @@
+#LMS111
+# first_target_ray: 62
+# second_target_ray: 357    
+# frequency: 25
+
+#TIM571
+first_target_ray: 56
+second_target_ray: 279
+frequency: 15
+central_ray: 210
+maximum_deviation: 3

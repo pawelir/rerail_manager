@@ -1,0 +1,8 @@
+<launch>
+    <group ns="rerail_manager">
+        <rosparam file="$(find rerail_manager)/config/rerail_manager_node.yaml" />
+    </group>
+    
+    <node pkg="rerail_manager" type="rerail_manager_node.py" name="rerail_manager" output="screen"/>
+    <node pkg="rerail_manager" type="rotrac_behaviours_node.py" name="rotrac_behaviours" output="screen"/>
+</launch>
